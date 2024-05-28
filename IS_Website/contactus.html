@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="contactus.css">
+    </head>
+
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="home.html"><button class="nav-btn">Home</button></a>
+        <a href="aboutme.html"><button class="nav-btn">About Me</button></a>
+        <a href="gallery.html"><button class="nav-btn">Gallery</button></a>
+        <a href="gradechecker.html"><button class="nav-btn">Grade Checker</button></a>
+        <a href="contactus.html"><button class="nav-btn">Contact Us</button></a>
+
+        <!-- Logo/Image -->
+        <logo><img class="logo" src="img/logo.png"></logo>
+    </nav>
+
+    <body>
+        <table class="top-div">
+            <tr>
+                <td>
+                    <img class="me" src="img/dog.png">
+                </td>
+                <td>
+                    <div class="top-p">
+                        <div class="text box">
+                            <h1>Contact Us</h1>
+                            <p>
+                            We are a company operating in Royal Holloway University in Egham. To contact the owner: Jared, or any other staff members,
+                            please use these methods below
+                            </p>
+                        </div>
+                        <div class="text box">
+                            <h1>On the Phone</h1>
+                            <p>
+                                You may dial our numer +01 23107431476365-313516 to reach our customer service member situated in
+                                the depths of the Earth. Alternatively, you may call 911 to get into contact with out 24/7 security team. For more enquiries,
+                                please contact 1300-888-333 for more information
+                            </p>
+                        </div>
+                        <img id="image" src="img/ads.gif">
+                        <button type="button" onclick="show()" id="btn">
+                            Contact Us Now Button!
+                        </button>
+                        <script>
+                            function show() {
+                                document.getElementById('image')
+                                    .style.display = "block";
+                                document.getElementById('btn')
+                                    .style.display = "none";
+                            }
+                        </script>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </body>
+
+    <!-- Footer -->
+    <footer>
+        <table>
+            <tr>
+                <td>
+                    <p>Copyright Disclaimer Under Section 107 of the Copyright Act 1976, allowance is made for "fair use" for purposes such as criticism, comment, news reporting, teaching, scholarship, and research. 
+                        Fair use is a use permitted by copyright statute that might otherwise be infringing. Non-profit, educational or personal use tips the balance in favor of fair use.</p>
+                </td>
+                <td>
+                    <p class="ft-right">Contact me at jaredtzm05@gmail.com</p>
+                </td>
+            </tr>
+        </table>
+    </footer>
+</html>

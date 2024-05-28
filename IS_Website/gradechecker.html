@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>GradeChecker</title>
+        <link rel="stylesheet" href="gradechecker.css">
+    </head>
+
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="home.html"><button class="nav-btn">Home</button></a>
+        <a href="aboutme.html"><button class="nav-btn">About Me</button></a>
+        <a href="gallery.html"><button class="nav-btn">Gallery</button></a>
+        <a href="gradechecker.html"><button class="nav-btn">Grade Checker</button></a>
+        <a href="contactus.html"><button class="nav-btn">Contact Us</button></a>
+
+        <!-- Logo/Image -->
+        <logo><img class="logo" src="img/logo.png"></logo>
+    </nav>
+
+    <body>
+        <form class="top-div">
+            <div class="btn">
+                <label for="Your_Mark">Your Marks in the exam<br></bt></label>
+                <input type="text" id="Total_Mark" value="Enter a number...">
+            </div>
+            <div class="btn">
+                <label for="Your_Mark">Total Marks In The Exam<br></bt></label>
+                <input type="text" id="Total_Mark" value="Enter a number...">
+            </div>
+            <div class="btn">
+                <button type="button" onclick="show()" id="btn">Submit</button>
+            </div>
+            <img id="image" src="img/ads.gif">
+            <script>
+                function show() {
+                    document.getElementById('image').style.display = "block";
+                    document.getElementById('btn').style.display = "none";
+                }
+            </script>
+        </form>
+    </body>
+
+    <!-- Footer -->
+    <footer>
+        <table>
+            <tr>
+                <td>
+                    <p>Copyright Disclaimer Under Section 107 of the Copyright Act 1976, allowance is made for "fair use" for purposes such as criticism, comment, news reporting, teaching, scholarship, and research. 
+                        Fair use is a use permitted by copyright statute that might otherwise be infringing. Non-profit, educational or personal use tips the balance in favor of fair use.</p>
+                </td>
+                <td>
+                    <p class="ft-right">Contact me at jaredtzm05@gmail.com</p>
+                </td>
+            </tr>
+        </table>
+    </footer>
+</html>
